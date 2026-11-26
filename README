@@ -1,0 +1,32 @@
+# FlashStack
+
+**First of all, thank you!**
+Now you can quickly create your **Frontend**, **Backend**, or **Full-Stack** projects right from your terminal.
+
+## How to Use
+
+Run the CLI directly with `npx`:
+
+```bash
+npx flashstack
+```
+
+Or install it globally:
+
+```bash
+npm install -g flashstack
+flashstack
+```
+
+### Steps
+
+1. Run `npx flashstack` in the folder where you want your project.
+2. Choose what you want to create:
+   - Press **Enter** for **Full-Stack** (Backend + Frontend)
+   - Type **`0`** for **Backend** only (Express)
+   - Type **`1`** for **Frontend** only (Vite)
+3. Follow the prompts to pick your project name, framework, and packages.
+
+---
+
+Thank you!
