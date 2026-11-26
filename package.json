@@ -1,0 +1,37 @@
+{
+  "name": "flashstack",
+  "version": "1.0.5",
+  "description": "Interactive CLI tool to scaffold frontend, backend, and full-stack projects",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "flashstack": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "scaffold",
+    "generator",
+    "fullstack",
+    "boilerplate"
+  ],
+  "author": "Debabrata",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "files": [
+    "index.js",
+    "createFolder_File/",
+    "getProjecStructure/",
+    "installPkg/"
+  ],
+  "dependencies": {
+    "chalk": "^6.0.1",
+    "execa": "^10.2.1",
+    "fs-extra": "^11.4.1",
+    "inquirer": "^14.3.1"
+  }
+}
